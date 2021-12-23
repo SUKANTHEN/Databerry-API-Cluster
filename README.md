@@ -1,15 +1,15 @@
 
-# DataBerry Cluste
+# DataBerry API Cluster 
 ### " For a Safe, Secure and Positivity enriched Digital World "
 
 DataBerry Cluster offers wide range of APIs pertaining to multiple domains primarily built on core vision of problem solving. 
 
-1) DataBerry-Text Quality Analysis API for **Real-time Data Quality Validation**
-2) DataBerry Personal Identifier API for **Real-time Personal Information Identification**
-3) DataBerry Text Translator API for **Real-time translation of text into multiple languages** using Google Translate library
-4) DataBerry- Text Cleaner API for **Automated Data Cleaning in input text query**.
-5) DataBerry-Detoxifier API for **Toxic Comments Removal for input text**
-6) Domain Specific **Sentiment Classification**
+<ol> 1) DataBerry-Text Quality Analysis API for **Real-time Data Quality Validation** </ol>
+<ol> 2) DataBerry Personal Identifier API for **Real-time Personal Information Identification** </ol>
+<ol> 3) DataBerry Text Translator API for **Real-time translation of text into multiple languages** using Google Translate library </ol>
+<ol> 4) DataBerry- Text Cleaner API for **Automated Data Cleaning in input text query**. </ol>
+<ol> 5) DataBerry-Detoxifier API for **Toxic Comments Removal for input text** </ol>
+<ol> 6) Domain Specific **Sentiment Classification** </ol>
 
 Choose specific end-points that match your requirements from DataBerry cluster.
 
