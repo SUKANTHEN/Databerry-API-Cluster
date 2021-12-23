@@ -25,7 +25,7 @@ Choose specific end-points that match your requirements from DataBerry cluster.
 | `/translate` | `POST` | Text Translator API | 
 | `/datacleaner` | `POST` | Text Data Cleaner API | 
 
-### 1) Text Quality Analysis API
+## 1) Text Quality Analysis API
 Given a text input, the API will return 
 - Query Language
 - Number of Words
@@ -55,7 +55,7 @@ JSON Output:
 }
 ```
 
-### 2) Personal Identifier API
+## 2) Personal Identifier API
 Given a text input, the API will extract all `personal information` such as
 - Dates (Y-M-D Format)
 - Email
@@ -84,5 +84,5 @@ JSON Output:
 }
 ```
 
-### 3) DataBerry Cluster Cleaner API
+## 3) DataBerry Cluster Cleaner API
 Given a text input, the Cleaner API will remove unwanted `stopwords`, `html tags` and `user-defined words` from the input text.
