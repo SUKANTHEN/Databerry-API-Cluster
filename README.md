@@ -1,6 +1,6 @@
 
-# <p align="center"> DataBerry Cluster </p>
-### <p align="center"> " For a Safe, Secure and Positivity enriched Digital World "</p>
+# DataBerry Cluste
+### " For a Safe, Secure and Positivity enriched Digital World "
 
 DataBerry Cluster offers wide range of APIs pertaining to multiple domains primarily built on core vision of problem solving. 
 
