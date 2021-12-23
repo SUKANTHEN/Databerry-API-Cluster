@@ -30,9 +30,9 @@ Given a text input, the API will return
 - Query Language
 - Number of Words
 - Query Length
-- Gibberish Score
+- Gibberish Score {in active development}
 - Toxicity Level / Score
-- Text Sentiment Score
+- Text Sentiment Score {in active development}
 
 Input URL
 ```console
@@ -60,9 +60,11 @@ Given a text input, the API will extract all `personal information` such as
 - Dates (Y-M-D Format)
 - Email
 - Gender
-- Names
-- Geo-location
 - Phone Number
+- Names {in active development}
+- Geo-location {in active development}
+- Designation {in active development}
+- Education Qualification {in active development}
 
 Input URL
 ```console
@@ -87,6 +89,32 @@ JSON Output:
 ## 3) DataBerry Cluster Cleaner API
 Given a text input, the Cleaner API will remove unwanted `stopwords`, `html tags` and `user-defined words` from the input text.
 
+Input URL
+```console
+URL Link : https://databerry_cluster.com/datacleaner
+```
+
+JSON Input
+```console
+{
+	"text":"Ravi is a boy in Kerala.<p> I have a bad head ache. </p> <p align=center> But the problem is due to overeating and watching TV for long hours </p>",
+	"remove_html":"True",
+	"remove_stopwords":"True",
+	"stopwords_list":"None"
+}
+```
+
+JSON Output:
+```
+{
+    "cleaned_text": "Ravi boy Kerala . I bad head ache . But problem due overeating watching TV long hours"
+}
+```
+
+## 4) Detoxifier API
+Given a input query with toxic comments, the API will exactly spot the toxic words and replace the letters of that particular word except the first letter. (eg: fuck --> f***) 
+
+<br>
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sukanchamp/)
