@@ -11,7 +11,8 @@ DataBerry Cluster offers wide range of APIs pertaining to multiple domains prima
 <ol> 5) DataBerry-Detoxifier API for <b>Toxic Comments Removal for input text</b> </ol>
 <ol> 6) Domain Specific <b>Sentiment Classification</b> </ol>
 
-Choose specific end-points that match your requirements from DataBerry cluster.
+<b> Choose specific end-points that match your requirements from DataBerry cluster. </b>
+<br>
 
 ## API Reference
 
@@ -23,7 +24,10 @@ Choose specific end-points that match your requirements from DataBerry cluster.
 | `/text_quality` | `POST`   | Text Quality Analysis API |
 | `/personal_identifier`| `POST` | Personal Identifier API |
 | `/translate` | `POST` | Text Translator API | 
-| `/datacleaner` | `POST` | Text Data Cleaner API | 
+| `/datacleaner` | `POST` | Text Data Cleaner API |
+| `/detoxifier` | `POST` | Detoxifier API  |
+
+<br>
 
 ## 1) Text Quality Analysis API
 Given a text input, the API will return 
@@ -54,6 +58,7 @@ JSON Output:
     "toxicity": 0
 }
 ```
+<br>
 
 ## 2) Personal Identifier API
 Given a text input, the API will extract all `personal information` such as
@@ -85,6 +90,7 @@ JSON Output:
     "phone_number": "+1-541-754-3010"
 }
 ```
+<br>
 
 ## 3) DataBerry Cluster Cleaner API
 Given a text input, the Cleaner API will remove unwanted `stopwords`, `html tags` and `user-defined words` from the input text.
@@ -110,6 +116,7 @@ JSON Output:
     "cleaned_text": "Ravi boy Kerala . I bad head ache . But problem due overeating watching TV long hours"
 }
 ```
+<br>
 
 ## 4) Detoxifier API
 Given a input query with toxic comments, the API will exactly spot the toxic words and replace the letters of that particular word except the first letter. (eg: fuck --> f***) 
