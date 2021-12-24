@@ -25,7 +25,7 @@ DataBerry Cluster offers wide range of APIs pertaining to multiple domains prima
 | `/personal_identifier`| `POST` | Personal Identifier API |
 | `/translate` | `POST` | Text Translator API | 
 | `/datacleaner` | `POST` | Text Data Cleaner API |
-| `/detoxifier` | `POST` | Detoxifier API  |
+| `/detoxify` | `POST` | Detoxifier API  |
 
 <br>
 
@@ -119,8 +119,26 @@ JSON Output:
 <br>
 
 ## 4) Detoxifier API
-Given a input query with toxic comments, the API will exactly spot the toxic words and replace the letters of that particular word except the first letter. (eg: fuck --> f***) 
+Given a input query with toxic comments, the API will exactly spot the toxic words and replace the letters of that particular word with asterisk (*). (eg: moron --> *****) 
 
+Input URL
+```console
+URL Link : https://databerry_cluster.com/detoxify
+```
+
+JSON Input
+```console
+# Dialogue from American Series Silicon Valley (Season 1)
+{"text":"Hello, Richard Hendricks. I'm a total fucking retard."}
+```
+
+JSON Output:
+```
+{
+    "cleaned_text": "Hello, Richard Hendricks. I'm a total ******* ******.",
+}
+```
+<br>
 <br>
 
 ## 🔗 Links
