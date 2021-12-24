@@ -17,7 +17,11 @@ DataBerry Cluster offers wide range of APIs pertaining to multiple domains prima
 ## API Reference
 
 ### DataBerry Cluster API
+<br>
 
+Base URL: https://databerrycluster.herokuapp.com
+
+<br>
 
 | Endpoint        | Method   |   Description              |
 | :--------       | :------- | :------------------------- |
@@ -40,7 +44,7 @@ Given a text input, the API will return
 
 Input URL
 ```console
-URL Link : https://databerry_cluster.com/text_quality
+URL Link : https://databerrycluster.herokuapp.com/text_quality
 ```
 
 JSON Input
@@ -73,7 +77,7 @@ Given a text input, the API will extract all `personal information` such as
 
 Input URL
 ```console
-URL Link : https://databerry_cluster.com/personal_identifier
+URL Link : https://databerrycluster.herokuapp.com/personal_identifier
 ```
 
 JSON Input
@@ -97,7 +101,7 @@ Given a text input, the Cleaner API will remove unwanted `stopwords`, `html tags
 
 Input URL
 ```console
-URL Link : https://databerry_cluster.com/datacleaner
+URL Link : https://databerrycluster.herokuapp.com/datacleaner
 ```
 
 JSON Input
@@ -123,7 +127,7 @@ Given a input query with toxic comments, the API will exactly spot the toxic wor
 
 Input URL
 ```console
-URL Link : https://databerry_cluster.com/detoxify
+URL Link : https://databerrycluster.herokuapp.com/detoxify
 ```
 
 JSON Input
