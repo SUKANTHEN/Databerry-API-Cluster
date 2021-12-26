@@ -30,6 +30,7 @@ Base URL: https://databerrycluster.herokuapp.com
 | `/translate` | `POST` | Text Translator API | 
 | `/datacleaner` | `POST` | Text Data Cleaner API |
 | `/detoxify` | `POST` | Detoxifier API  |
+| `/gibberish_check` | `POST` | Gibberish Validator API |
 
 <br>
 
@@ -140,6 +141,28 @@ JSON Output:
 ```
 {
     "cleaned_text": "Hello, Richard Hendricks. I'm a total ******* ******.",
+}
+```
+<br>
+
+## 5) Gibberish Validator API for text
+Given a text input query, the API will validate if a text query is `gibberish` or normal and valid. 
+
+Input URL
+```console
+URL Link : https://databerrycluster.herokuapp.com/gibberish_check
+```
+
+JSON Input
+```console
+{"text":"xvusd sdh vuh whjguwr ijhb rrbhe jij v in sgnjvwjiqwur  qiweurw wquwrgbrwv q njsavnq df v  ed jnrerj."}
+```
+
+JSON Output:
+The output 1 denotes 'gibberish' text and 0 denotes normal/valid query.
+```
+{
+    "gibberish_data": 1
 }
 ```
 <br>
