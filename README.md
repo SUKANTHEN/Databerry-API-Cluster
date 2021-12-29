@@ -19,7 +19,9 @@ DataBerry Cluster offers wide range of APIs pertaining to multiple domains prima
 ### DataBerry Cluster API
 <br>
 
-Base URL: https://databerrycluster.herokuapp.com
+Base URL: https://databerrycluster.herokuapp.com 
+<br>
+Docs    : https://sukanthen.github.io/Databerry-API-Cluster/
 
 <br>
 
